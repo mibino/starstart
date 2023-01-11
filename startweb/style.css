@@ -1,5 +1,12 @@
 .header {
     color:#FFFFFF;
-    background:cornflowerblue;
+    background-color:cornflowerblue;
     overflow: hidden;
+}
+a {
+    color: cornflowerblue;
+}
+a:hover {
+    color: #FFFFFF;
+    background-color:cornflowerblue ;
 }
