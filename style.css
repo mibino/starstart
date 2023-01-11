@@ -53,12 +53,15 @@ header ul li a {
   padding: 6px 15px;
   color: #fff;
   border-radius: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 header ul li a:hover,
 header ul li a.active {
   background: #fff;
   color: #2b1055;
+
 }
 
 section {
