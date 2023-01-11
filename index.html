@@ -2,50 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>星辰起始导航</title>
   <link rel="stylesheet" href="style.css">
+  <script src="search.js"></script>
 </head>
 <body>
-  <header>
-    <a href="#" class="logo">星辰起始导航</a>
-    <ul>
-      <li><a href="#" class="active">首页</a></li>
-      <li><a href="startweb/">网站起始导航</a></li>
-    </ul>
-  </header>
-  <section>
-    <img src="images/stars.png" id="stars">
-    <img src="images/moon.png" id="moon">
-    <img src="images/mountains_behind.png" id="mountains_behind">
-    <h2 id="text">星辰起始导航</h2>
-    <a href="startweb/" id="btn">打开网站起始导航</a>
-    <img src="images/mountains_front.png" id="mountains_front">
-  </section>
-  <div class="sec" id="sec">
-    <h2>CXY</h2>
-    <p>什么，这不是猴答辩的群，我们这个陈星宇体积小方便携带，拆开一包，放电脑里就格式化磁盘，怎么断都断不开，用来破坏，格式化，泄露隐私都是很好用的，你看打开以后像油饼一样大小，放在Todesk里遇电脑就格式化磁盘，破坏性很强的。</p>
-  </div>
-
-  <script>
-    let stars = document.getElementById('stars')
-    let moon = document.getElementById('moon')
-    let mountains_behind = document.getElementById('mountains_behind')
-    let text = document.getElementById('text')
-    let btn = document.getElementById('btn')
-    let mountains_front = document.getElementById('mountains_front')
-    let header = document.querySelector('header')
-
-    window.addEventListener('scroll', function(){
-      let value = window.scrollY;
-      stars.style.left = value * 0.25 + 'px'
-      moon.style.top = value * 1.05 + 'px'
-      mountains_behind.style.top = value * 0.5 + 'px'
-      mountains_front.style.top = value * 0 + 'px'
-      text.style.marginRight = value * 4 + 'px'
-      text.style.marginTop = value * 1.5 + 'px'
-      btn.style.marginTop = value * 1.5 + 'px'
-      header.style.top = value * 0.5 + 'px'
-    })
-  </script>
+<div class="header">
+    <p><center>星辰起始导航</center></p>
+</div>
+<hr>
+<center><b><p>|<a href="#">起始导航首页</a>|<a href="https://space.bilibili.com/1868407806">联系我们(bilibili)</a>|</p></b></center>
+<hr>
+<center>
+    <div class="kj">
+        <form onsubmit="return search()">
+            <input type=text class="ssk" autocomplete="off" autofocus id="search_input">
+            <button class="anniu" onclick="return search()">搜索</button>
+        </form>
+    </div>
+</center>
+<center>
+    <b><a href="https://noname20193-wecom-work.github.io/">陈星宇官网起始页</a></b>
+    <b><a href="https://cxy.dogetv.cn/">陈星宇官网主站</a></b>
+    <b><a href="https://noname20193-wecom-work.github.io/chinese">陈星宇官网镜像站1</a></b>
+    <b><a href="https://tangerinepeel1.github.io/chinese">陈星宇官网镜像站2</a></b>
+    <b><a href="https://sjvs.dogetv.cn">LinuxIPA商店</a></b><br>
+    <b><a href="https://xiaoxintwociyuan.asia/">陈星宇官网起始页2域名站</a></b>
+    <b><a href="https://github.com/">Github</a></b>
+    <b><a href="https://zeroipa.gitee.io/">ZeroIPA经典设备下载站</a></b>
+    <b><a href="https://www.jerry-system.ml/">JERRY-SYSTEM Blog</a></b><br>
+    <b><a href="https://gitee.com">Gitee</a></b>
+    <b><a href="https://gitea.io">Gitea</a></b>
+    <b><a href="https://bilibili.com/">哔哩哔哩</a></b>
+    <b><a href="https://limestart.cn/">青柠起始页</a></b><br>
+</center>
 </body>
 </html>
